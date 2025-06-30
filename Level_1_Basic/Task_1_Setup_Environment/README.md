@@ -2,6 +2,7 @@
 
 This task involved setting up the full-stack development environment with essential tools and verifying their installation and configuration.
 
+
 ## ✅ Tools Installed
 
 - Node.js (Version: v22.13.1)
@@ -10,6 +11,7 @@ This task involved setting up the full-stack development environment with essent
 - Git
 - VS Code Editor
 - MongoDB (Compass GUI included)
+
 
 ## ✅ GitHub Setup
 
@@ -22,6 +24,7 @@ This task involved setting up the full-stack development environment with essent
   git commit -m "Initial commit"
   git push -u origin main
   ```
+
 
 ## ✅ Terminal Commands Practiced  
 
@@ -36,6 +39,7 @@ npm -v          # npm version
 git --version   # Git version
 "C:\Program Files\MongoDB\Server\7.0\bin\mongod.exe" --version  # MongoDB version (manual path method)
 ```
+
 
 ## ✅ MongoDB Setup Notes
 
@@ -52,6 +56,7 @@ C:\data\db
 ```
 Verified mongod command is working correctly via CMD.
 
+
 - ## 📸 Screenshots Added (inside `screenshots/` folder)
 
 - ✅ `node -v` output
@@ -61,8 +66,10 @@ Verified mongod command is working correctly via CMD.
 - ✅ `mongod` terminal logs showing MongoDB start
 - ✅ MongoDB version verified via direct path
 
+
 ## 📌 Task Summary
 All necessary tools and environments are now installed and configured.
 I’m ready to move forward with the next development tasks.
 
+---
 ## ✨ *Areeba Zafar – Codveda Intern*
