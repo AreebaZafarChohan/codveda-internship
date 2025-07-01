@@ -73,16 +73,17 @@ Build a basic RESTful API using **Node.js** and **Express** for user management.
 ## 📂 Folder Structure
 
 codveda-internship/
-├── Level_1_Basic/
-│ ├── task1_setup_environment/
-│ └── task2-api/
-│ ├── index.js
-│ ├── .gitignore
-│ ├── package.json
-│ ├── screenshots/
-│ └── README.md
-├── README.md
-└── LI
+- ├── Level_1_Basic/
+- │ - ├── task1_setup_environment/
+- │ - └── task2-api/
+- │ - ├── index.js
+- │ - ├── .gitignore
+- │ - ├── package.json
+- │ - ├── screenshots/
+- │ - └── README.md
+- ├── README.md
+- └── LICENSE
+
 
 ---
 
