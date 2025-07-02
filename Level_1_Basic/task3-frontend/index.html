@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UserPilot  | User Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-users"></i>
+                <h1>UserPilot </h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <button id="themeToggle" class="theme-toggle">
+                <i class="fas fa-moon"></i>
+                <span>Dark Mode</span>
+            </button>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <div class="hero-content">
+                <h2>User Management Dashboard</h2>
+                <p>Efficiently manage and visualize your user data with our powerful platform</p>
+                <button id="fetchBtn" class="cta-button">
+                    <i class="fas fa-rocket"></i> Load Users
+                </button>
+            </div>
+            <div class="hero-image">
+                <img src="/assests/light_theme_image.svg" alt="Light theme illustration" class="theme-image active"
+                    data-theme="light">
+                <img src="/assests/dark_theme_image.svg" alt="Dark theme illustration" class="theme-image"
+                    data-theme="dark">
+            </div>
+        </section>
+
+        <section class="data-section">
+            <div id="loader" class="loader hidden">
+                <div class="spinner"></div>
+                <p>Fetching user data...</p>
+            </div>
+
+            <div class="section-header">
+                <h3>User Directory</h3>
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="searchInput" placeholder="Search users...">
+                </div>
+            </div>
+
+            <div id="userList" class="grid"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 UserPilot . All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://x.com/areebazafar715"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/areeba-zafar-973917303/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/AreebaZafarChohan"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

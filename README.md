@@ -2,7 +2,7 @@
 
 ✨ **Submitted by: Areeba Zafar – Codveda Intern**
 
-This repository contains solutions to Level 1 tasks for the Codveda Internship Program, demonstrating my skills in environment setup and building RESTful APIs with Node.js and Express.
+This repository contains solutions to Level 1 tasks for the Codveda Internship Program, demonstrating my skills in environment setup, backend API development, and frontend integration using vanilla web technologies.
 
 ---
 
@@ -50,39 +50,79 @@ Build a basic RESTful API using **Node.js** and **Express** for user management.
 - Tested with: **Thunder Client** / **Postman**
 
 ### 📸 Screenshots
-- Server running in terminal
-- All CRUD operations:
-  - get_all_users.png
-  - get_single_user.png
-  - post_newUser.png
-  - put_user.png
-  - delete_user.png
+- ✅ `run_server.png` – Server running using Nodemon  
+- ✅ `get_all_users.png`  
+- ✅ `get_single_user.png`  
+- ✅ `post_newUser.png`  
+- ✅ `put_user.png`  
+- ✅ `delete_user.png`
+
+---
+
+## ✅ Task 3: Frontend Webpage
+
+> 📁 Path: `Level_1_Basic/task3-frontend/`
+
+### 🔧 Objective
+Create a simple frontend using HTML, CSS, and JavaScript that fetches and displays data from a REST API.
+
+### 💡 Features Implemented
+- Static layout with "Fetch Users" button
+- Dynamically loads data using `fetch()`
+- Displays user info using DOM manipulation
+- Light/Dark theme toggle with images
+- Debounced search functionality
+- Responsive UI with custom CSS
+
+### 🛠 Tech Stack
+- HTML
+- CSS
+- JavaScript (Vanilla)
+
+### 📸 Screenshots Preview (stored in `screenshots/`)
+
+| # | Screenshot Description                     | File Name                     |
+|---|--------------------------------------------|-------------------------------|
+| 1 | Initial Web Layout                         | `01_initial_layout.png`       |
+| 2 | Loader State (After Fetch Clicked)         | `02_loading_users.png`        |
+| 3 | Users Displayed Successfully               | `03_users_displayed.png`      |
+| 4 | Search Functionality in Action             | `04_search_functionality.png` |
+| 5 | Console Logs of API Fetch                  | `05_console_logs.png`         |
+| 6 | Responsive Mobile View                     | `06_mobile_view.png`          |
+| 7 | Theme Toggle – Light Mode                  | `07_light_mode.png`           |
+| 8 | Theme Toggle – Dark Mode                   | `08_dark_mode.png`            |
 
 ---
 
 ## 🧠 What I Learned
 
 - Working with Express routing
-- Using REST architecture with CRUD principles
-- Sending and handling JSON data
-- Understanding middleware and HTTP status codes
-- API testing via Thunder Client
+- RESTful API design and CRUD operations
+- DOM manipulation & dynamic rendering with vanilla JS
+- Debounced search input filtering
+- Responsive CSS layout
+- Theme toggling with local storage persistence
+- Using Fetch API to integrate frontend with backend
 
 ---
 
 ## 📂 Folder Structure
 
 codveda-internship/
-├── Level_1_Basic/
-│ ├── task1_setup_environment/
-│ └── task2-api/
-│ ├── index.js
-│ ├── .gitignore
-│ ├── package.json
-│ ├── screenshots/
-│ └── README.md
-├── README.md
-└── LI
+- ├── Level_1_Basic/
+- │ ├── task1_setup_environment/
+- │ ├── task2-api/
+- │ │ ├── index.js
+- │ │ ├── package.json
+- │ │ ├── .gitignore
+- │ │ └── screenshots/
+- │ ├── task3-frontend/
+- │ │ ├── index.html
+- │ │ ├── style.css
+- │ │ ├── script.js
+- │ │ └── screenshots/
+- ├── README.md
+- └── LICENSE
 
 ---
 
@@ -91,5 +131,6 @@ codveda-internship/
 **Areeba Zafar – Codveda Intern**  
 🌐 GitHub: [@AreebaZafarChohan](https://github.com/AreebaZafarChohan)  
 📧 Contact: Available on request
+📩 Email : [AreebaZafar](mailto:areebazafar715@gmail.com)
 
 ---
