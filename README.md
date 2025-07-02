@@ -84,13 +84,14 @@ Create a simple frontend using HTML, CSS, and JavaScript that fetches and displa
 | # | Screenshot Description                     | File Name                     |
 |---|--------------------------------------------|-------------------------------|
 | 1 | Initial Web Layout                         | `01_initial_layout.png`       |
-| 2 | Loader State (After Fetch Clicked)         | `02_loading_users.png`        |
-| 3 | Users Displayed Successfully               | `03_users_displayed.png`      |
-| 4 | Search Functionality in Action             | `04_search_functionality.png` |
-| 5 | Console Logs of API Fetch                  | `05_console_logs.png`         |
+| 2 | Users Displayed Successfully               | `02_users_displayed.png`      |
+| 3 | Search Functionality in Action             | `03_search_functionality.png` |
+| 4 | Console Logs of API Fetch                  | `04_console_logs.png`         |
+| 5 | Search Functionality with Fallback         | `05_search_functionality_fallback.png` |
 | 6 | Responsive Mobile View                     | `06_mobile_view.png`          |
-| 7 | Theme Toggle – Light Mode                  | `07_light_mode.png`           |
-| 8 | Theme Toggle – Dark Mode                   | `08_dark_mode.png`            |
+| 7 | Tablet Responsive View                     | `07_tablet_view.png`          |
+| 8 | Theme Toggle – Light Mode                  | `08_light_mode.png`           |
+
 
 ---
 
